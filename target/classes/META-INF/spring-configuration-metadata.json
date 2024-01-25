@@ -4,13 +4,19 @@
       "name": "task",
       "type": "io.github.mat3e.TaskConfigurationProperties",
       "sourceType": "io.github.mat3e.TaskConfigurationProperties"
+    },
+    {
+      "name": "task.template",
+      "type": "io.github.mat3e.TaskConfigurationProperties$Template",
+      "sourceType": "io.github.mat3e.TaskConfigurationProperties",
+      "sourceMethod": "getTemplate()"
     }
   ],
   "properties": [
     {
-      "name": "task.allow-multiple-tasks-from-template",
+      "name": "task.template.allow-multiple-tasks",
       "type": "java.lang.Boolean",
-      "sourceType": "io.github.mat3e.TaskConfigurationProperties",
+      "sourceType": "io.github.mat3e.TaskConfigurationProperties$Template",
       "defaultValue": false
     }
   ],
