@@ -1,21 +1,30 @@
 package io.github.mat3e;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 @ConfigurationProperties("task")
 public class TaskConfigurationProperties {
+    private Template template;
 
-    private boolean allowMultipleTasksFromTemplate;
-
-    public boolean isAllowMultipleTasksFromTemplate() {
-        return allowMultipleTasksFromTemplate;
+    public Template getTemplate() {
+        return template;
     }
 
-    public void setAllowMultipleTasksFromTemplate(boolean allowMultipleTasksFromTemplate) {
-        this.allowMultipleTasksFromTemplate = allowMultipleTasksFromTemplate;
+    public void setTemplate(final Template template) {
+        this.template = template;
     }
 
+    public static class Template {
+        private boolean allowMultipleTasks;
 
+        public boolean isAllowMultipleTasks() {
+            return allowMultipleTasks;
+        }
+
+        public void setAllowMultipleTasks(final boolean allowMultipleTasks) {
+            this.allowMultipleTasks = allowMultipleTasks;
+        }
+    }
 }

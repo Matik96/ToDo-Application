@@ -6,26 +6,26 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import java.net.URI;
 import java.util.List;
 
-@Controller
+@RestController
 class TaskController {
     private static final Logger logger = LoggerFactory.getLogger(TaskController.class);
     private final TaskRepository repository;
-    private final RestTemplate restTemplate;
 
-
-    TaskController(final TaskRepository repository, RestTemplate restTemplate) {
+    TaskController(final TaskRepository repository) {
         this.repository = repository;
-        this.restTemplate = restTemplate;
-
     }
 
     @PostMapping("/tasks")
@@ -46,13 +46,6 @@ class TaskController {
         return ResponseEntity.ok(repository.findAll(page).getContent());
     }
 
-    @GetMapping("/tasksIgnoreCase")
-    ResponseEntity<List<Task>> readAllTasks1() {
-        logger.info("Custom pageable");
-        return ResponseEntity.ok(repository.findAllIgnoreCase());
-    }
-
-
     @GetMapping("/tasks/{id}")
     ResponseEntity<Task> readTask(@PathVariable int id) {
         return repository.findById(id)
@@ -65,8 +58,11 @@ class TaskController {
         if (!repository.existsById(id)) {
             return ResponseEntity.notFound().build();
         }
-        toUpdate.setId(id);
-        repository.save(toUpdate);
+        repository.findById(id)
+                .ifPresent(task -> {
+                    task.updateFrom(toUpdate);
+                    repository.save(task);
+                });
         return ResponseEntity.noContent().build();
     }
 
@@ -78,23 +74,6 @@ class TaskController {
         }
         repository.findById(id)
                 .ifPresent(task -> task.setDone(!task.isDone()));
-/*        var task = repository.findById(id);
-        task.get().setDone(!task.get().isDone());
-        repository.save(task.get());*/
         return ResponseEntity.noContent().build();
     }
-
-    @GetMapping("/country/{name}")
-    ResponseEntity<String> getCountry(@PathVariable String name) {
-        String url = "https://restcountries.com/v3.1/name/" + name;
-        String response = restTemplate.getForObject(url, String.class);
-
-        if (response != null && response.length() > 0) {
-            return ResponseEntity.ok(response);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-
 }
