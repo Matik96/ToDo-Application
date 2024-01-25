@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "task",
+      "type": "io.github.mat3e.TaskConfigurationProperties",
+      "sourceType": "io.github.mat3e.TaskConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "task.allow-multiple-tasks-from-template",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.github.mat3e.TaskConfigurationProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
