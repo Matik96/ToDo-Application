@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c487371-648c-43c1-b0b3-611a34300580" name="Changes" comment="" />
+    <list default="true" id="1c487371-648c-43c1-b0b3-611a34300580" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TaskConfigurationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/TaskConfigurationProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TodoAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/TodoAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlTaskGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlTaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/controller/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Audit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/ProjectStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/SqlTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/SqlTaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupReadModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupReadModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskReadModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupTaskReadModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskWriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupTaskWriteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupWriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupWriteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/mat3e/TodoAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,29 +59,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="todo-app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="todo-app" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="todo-app [clean,install,-DskipTests]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -82,60 +96,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="todo-app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="todo-app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
-      <module name="todo-app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <option name="studyTest" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706223301700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update project">
+      <created>1706223596615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706223596615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
