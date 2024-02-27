@@ -1,10 +1,10 @@
-package todoApp.logic;
+package io.github.mat3e.logic;
 
-import todoApp.model.TaskGroup;
-import todoApp.model.TaskGroupRepository;
-import todoApp.model.TaskRepository;
-import todoApp.model.projection.GroupReadModel;
-import todoApp.model.projection.GroupWriteModel;
+import io.github.mat3e.model.TaskGroup;
+import io.github.mat3e.model.TaskGroupRepository;
+import io.github.mat3e.model.TaskRepository;
+import io.github.mat3e.model.projection.GroupReadModel;
+import io.github.mat3e.model.projection.GroupWriteModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -5,32 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c487371-648c-43c1-b0b3-611a34300580" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TaskConfigurationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TodoAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/TaskGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Audit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupReadModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskReadModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskWriteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupWriteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/TodoAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/TaskGroupServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TaskConfigurationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/TaskConfigurationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TodoAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/TodoAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlTaskGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/adapter/SqlTaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/controller/InfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Audit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/ProjectStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/SqlTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/SqlTaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupReadModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupReadModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskReadModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupTaskReadModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskWriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupTaskWriteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupWriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/model/projection/GroupWriteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/mat3e/TodoAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,23 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup">
+    <configuration name="ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mat3e.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.mat3e.logic" />
+      <option name="MAIN_CLASS_NAME" value="io.github.mat3e.logic.ProjectServiceTest" />
+      <option name="METHOD_NAME" value="createGroup_configurationOk_existingProject_createsAndSavesGroup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="todo-app [clean,install,-DskipTests]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -96,6 +118,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706223596615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor code">
+      <created>1706541002898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706541002898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +170,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update project" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

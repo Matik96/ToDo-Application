@@ -6,9 +6,20 @@
       "sourceType": "io.github.mat3e.TaskConfigurationProperties"
     },
     {
+      "name": "task",
+      "type": "todoApp.TaskConfigurationProperties",
+      "sourceType": "todoApp.TaskConfigurationProperties"
+    },
+    {
       "name": "task.template",
       "type": "io.github.mat3e.TaskConfigurationProperties$Template",
       "sourceType": "io.github.mat3e.TaskConfigurationProperties",
+      "sourceMethod": "getTemplate()"
+    },
+    {
+      "name": "task.template",
+      "type": "todoApp.TaskConfigurationProperties$Template",
+      "sourceType": "todoApp.TaskConfigurationProperties",
       "sourceMethod": "getTemplate()"
     }
   ],
@@ -16,8 +27,12 @@
     {
       "name": "task.template.allow-multiple-tasks",
       "type": "java.lang.Boolean",
-      "sourceType": "io.github.mat3e.TaskConfigurationProperties$Template",
-      "defaultValue": false
+      "sourceType": "io.github.mat3e.TaskConfigurationProperties$Template"
+    },
+    {
+      "name": "task.template.allow-multiple-tasks",
+      "type": "java.lang.Boolean",
+      "sourceType": "todoApp.TaskConfigurationProperties$Template"
     }
   ],
   "hints": []
