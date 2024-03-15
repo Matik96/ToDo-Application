@@ -5,43 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c487371-648c-43c1-b0b3-611a34300580" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TaskConfigurationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/TodoAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskGroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/adapter/SqlTaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/InfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/TaskGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Audit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/ProjectStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskGroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupReadModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskReadModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupTaskWriteModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/model/projection/GroupWriteModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/TodoAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/ProjectServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/logic/TaskGroupServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/LogicConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/mat3e/TestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoApp/logic/TaskGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todoApp/TodoAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mat3e/logic/ProjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,16 +48,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.mat3e" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TaskGroupServiceTest">
+    <configuration name="TodoAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mat3e.TodoAppApplication" />
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mat3e.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mat3e.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.mat3e.logic" />
+      <option name="MAIN_CLASS_NAME" value="io.github.mat3e.logic.ProjectServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo-app" />
       <extension name="coverage">
@@ -87,6 +104,36 @@
       <option name="MAIN_CLASS_NAME" value="io.github.mat3e.logic.ProjectServiceTest" />
       <option name="METHOD_NAME" value="createGroup_configurationOk_existingProject_createsAndSavesGroup" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskGroupServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mat3e.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.mat3e.logic" />
+      <option name="MAIN_CLASS_NAME" value="io.github.mat3e.logic.TaskGroupServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mat3e.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.mat3e" />
+      <option name="MAIN_CLASS_NAME" value="io.github.mat3e.TodoAppApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskGroupServiceTest" />
+        <item itemvalue="JUnit.ProjectServiceTest" />
+        <item itemvalue="JUnit.TodoAppApplicationTests" />
+        <item itemvalue="Application.TodoAppApplication" />
         <item itemvalue="JUnit.ProjectServiceTest.createGroup_configurationOk_existingProject_createsAndSavesGroup" />
       </list>
     </recent_temporary>

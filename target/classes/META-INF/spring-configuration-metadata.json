@@ -23,17 +23,6 @@
       "sourceMethod": "getTemplate()"
     }
   ],
-  "properties": [
-    {
-      "name": "task.template.allow-multiple-tasks",
-      "type": "java.lang.Boolean",
-      "sourceType": "io.github.mat3e.TaskConfigurationProperties$Template"
-    },
-    {
-      "name": "task.template.allow-multiple-tasks",
-      "type": "java.lang.Boolean",
-      "sourceType": "todoApp.TaskConfigurationProperties$Template"
-    }
-  ],
+  "properties": [],
   "hints": []
 }
